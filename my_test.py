@@ -2,7 +2,7 @@ from Package1 import my_math
 import unittest
 
 class TestMyMath(unittest.TestCase):
-    def setup(self):
+    def setUp(self):
         print("Inside TestMyMath : setup()")
         self.a=10
         self.b=5
