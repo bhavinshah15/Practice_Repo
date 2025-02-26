@@ -13,7 +13,7 @@ class TestMyMath(unittest.TestCase):
         self.a=None
         self.b=None
 
-    def test_add_positive():
+    def test_add_positive(self):
         print("Inside TestMyMath : test_add_positive()")
         self.assertEqual(my_add(self.a,self.b), 15)
 
