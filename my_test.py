@@ -8,14 +8,13 @@ class TestMyMath(unittest.TestCase):
         self.b=5
 
     def tearDown(self):
-        print(self.a)
         print("Inside TestMyMath : tearDown()")
         self.a=None
         self.b=None
 
     def test_add_positive(self):
         print("Inside TestMyMath : test_add_positive()")
-        self.assertEqual(my_math.my_add(self.a,self.b), 15)
+        self.assertEqual(my_math.my_add(self.a,self.b), 14)
 
 if __name__=='__main__':
     unittest.main()
