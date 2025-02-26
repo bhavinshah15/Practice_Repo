@@ -17,5 +17,5 @@ class TestMyMath(unittest.TestCase):
         self.assertEqual(my_add(self.a,self.b), 15)
 
 if __name__=='__main__':
-    unttest.main()
+    unittest.main()
 
