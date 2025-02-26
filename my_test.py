@@ -8,7 +8,7 @@ class TestMyMath(unittest.TestCase):
         self.b=5
 
     def tearDown(self):
-        print self.a
+        print(self.a)
         print("Inside TestMyMath : tearDown()")
         self.a=None
         self.b=None
