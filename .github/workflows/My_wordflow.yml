@@ -1,0 +1,10 @@
+name: Workflow Name
+on: [push]
+jobs:
+  TestName:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Starting workflow ========================"
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: echo "Exiting workflow ========================"
