@@ -1,4 +1,5 @@
 from Package1 import my_math
+import my_test
 
 def hello():
     print("Hi")
