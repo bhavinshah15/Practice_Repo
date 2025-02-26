@@ -18,7 +18,7 @@ class TestMyMath(unittest.TestCase):
 
     def test_divide_by_zero(self):
         print("Inside TestMyMath : test_divide_by_zero()")
-        with self.assertRaise(ValueError):
+        with self.assertRaises(ValueError):
             my_math.my_divide(self.a,0)
 
 if __name__=='__main__':
