@@ -15,3 +15,7 @@ class TestMyMath(unittest.TestCase):
     def test_add_positive():
         print("Inside TestMyMath : test_add_positive()")
         self.assertEqual(my_add(self.a,self.b), 15)
+
+if __name__=='__main__':
+    unttest.main()
+
