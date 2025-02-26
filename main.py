@@ -1,3 +1,5 @@
+from Package1 import my_math
+
 def hello():
     print("Hi")
 
