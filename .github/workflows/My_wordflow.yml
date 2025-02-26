@@ -8,3 +8,5 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - run: echo "Exiting workflow ========================"
+      - name: My test name
+        run: python my_test.py
